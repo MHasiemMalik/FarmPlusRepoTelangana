@@ -132,9 +132,17 @@ nav .content .links{
 .content .links ul ul{
   position: absolute;
   top: 0;
-  right: calc(-50% - 45px);
+  right: calc(-50% - 30px);
   background:#004080;
 }
+
+.content .links ul #show-Calculators1{
+  position: absolute;
+  top: 0;
+  right: calc(-50% - 65px);
+  background:#004080;
+}
+
 .content .links ul li{
   position: relative;
 }
@@ -234,7 +242,9 @@ nav .content .links{
 .content .links #show-items1:checked ~ ul,
 .content .links #show-items2:checked ~ ul,
 .content .links #show-items3:checked ~ ul,
-.content .links #show-items4:checked ~ ul{
+.content .links #show-items4:checked ~ ul,
+.content .links #show-Calculators:checked ~ ul,
+    .content .links #show-Calculators1:checked ~ ul{
     max-height: 180vh;
   
   }
@@ -324,11 +334,11 @@ nav .content .links{
       <div class="logo"><h1 id="F">FA<span id="Tid"><span class="rotateR">R</span></span>M+</h1></div>
         <ul class="links">
           <li>
-		    <a  class="desktop-link">CROPS / పంటలు  <i class="fa-solid fa-caret-down "></i></a>
+		    <a  class="desktop-link"><i class="fab fa-pagelines"></i> CROPS / పంటలు  <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-services0">
-            <label for="show-services0">CROPS / పంటలు <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-services0"><i class="fab fa-pagelines"></i> CROPS / పంటలు <i class="fa-solid fa-caret-down "></i></label>
             <ul>            
-              <li><a href="https://mhasiemmalik.github.io/teltypes/" target="mf">  <i class="fa-brands fa-pagelines"></i> TYPES / రకాలు </a></li>
+              <li><a href="https://mhasiemmalik.github.io/teltypes/" target="mf">  <i class="fas fa-leaf"></i> TYPES / రకాలు </a></li>
 			  <li><a href="https://mhasiemmalik.github.io/telgrowth/" target="mf"> <i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి  </a></li>
 		    </ul>
 		  </li>
@@ -337,39 +347,39 @@ nav .content .links{
 		  <a href="C:\ALL INDIA\TELANGANA\TP WP\ADL crops.html" target="mf">CROPS / పంటలు</a>
 		  li><a href="C:\ALL INDIA\TELANGANA\TP WP\ADL grown.html" target="mf">GROWTH / వృద్ధి</a></li-->
           <li>
-            <a  class="desktop-link">MORE / ఉధ్యానకృషి   <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-list-ul"></i> MORE / ఉధ్యానకృషి   <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-features">
-            <label for="show-features">MORE / ఉధ్యానకృషి <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-features"><i class="fas fa-list-ul"></i> MORE / ఉధ్యానకృషి <i class="fa-solid fa-caret-down "></i></label>
             <ul>
               <!--li><a href="#" target="mf">VEGETABLES / కూరగాయలు</a></li-->
                 <li>
-                <a href="#" class="desktop-link">VEGETABLES / కూరగాయలు <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-carrot"></i> VEGETABLES / కూరగాయలు <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items">
-       <!---->  <label for="show-items">VEGETABLES / కూరగాయలు</label>
+       <!---->  <label for="show-items"><i class="fa-solid fa-carrot"></i> VEGETABLES / కూరగాయలు</label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/VegTypes/" target="mf"> <i class="fa-solid fa-carrot"></i> TYPES / రకాలు </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/VegTypes/" target="mf"> <i class="fas fa-search"></i> TYPES / రకాలు </a></li>
                   <li><a href="https://mhasiemmalik.github.io/vegGwthFmp/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి  </a></li>                 
                 </ul>
                 </li>
 
                <!--li><a href="#" target="mf">FRUITS / పండ్లు</a></li-->
                 <li>
-                <a href="#" class="desktop-link">FRUITS / పండు  <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-apple-whole"></i> FRUITS / పండు  <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items1">
-      <!---->   <label for="show-items1">FRUITS / పండు</i></label>
+      <!---->   <label for="show-items1"><i class="fa-solid fa-apple-whole"></i> FRUITS / పండు</i></label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/Fruitstypsfmp/"   target="mf"><i class="fa-solid fa-apple-whole"></i> TYPES / రకాలు  </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/Fruitstypsfmp/"   target="mf"><i class="fas fa-search"></i> TYPES / రకాలు  </a></li>
                   <li><a href="https://mhasiemmalik.github.io/FruitsGwthFmp/" target="mf"> <i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి </a></li>                 
                 </ul>
                 </li>
 
               <!--li><a href="#" target="mf">FLOWERS / పువ్వులు</a></li-->
                 <li>
-                <a href="#" class="desktop-link">FLOWERS / పువ్వులు <i class="fa-solid fa-caret-right "></i></a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-fan"></i> FLOWERS / పువ్వులు <i class="fa-solid fa-caret-right "></i></a>
                 <input type="checkbox" id="show-items2">
-      <!---->   <label for="show-items2">FLOWERS / పువ్వులు </label>
+      <!---->   <label for="show-items2"><i class="fa-solid fa-fan"></i> FLOWERS / పువ్వులు </label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/flowertypefmp/" target="mf"><i class="fa-solid fa-fan"></i> TYPES / రకాలు   </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/flowertypefmp/" target="mf"><i class="fas fa-search"></i>TYPES / రకాలు   </a></li>
                   <li><a href="https://mhasiemmalik.github.io/FarmFlowerHRT/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి   </a></li>                 
                 </ul>
                 </li> 
@@ -377,35 +387,33 @@ nav .content .links{
 
               <!--li><a href="#" target="mf" >SPICES / సుగంధద్రవ్యాలు</a></li-->
                 <li>
-                <a href="#" class="desktop-link">  SPICES / సుగంధద్రవ్యాలు <i class="fa-solid fa-caret-right "></i> </a>
+                <a href="#" class="desktop-link"><i class="fa-solid fa-mortar-pestle"></i>  SPICES / సుగంధద్రవ్యాలు <i class="fa-solid fa-caret-right "></i> </a>
                 <input type="checkbox" id="show-items3">
-      <!---->   <label for="show-items3">SPICES / సుగంధద్రవ్యాలు</label>
+      <!---->   <label for="show-items3"><i class="fa-solid fa-mortar-pestle"></i> SPICES / సుగంధద్రవ్యాలు</label>
                 <ul>
-                  <li><a href="https://mhasiemmalik.github.io/spicestypfmp/"   target="mf"><i class="fa-solid fa-mortar-pestle"></i> TYPES / రకాలు  </a></li>
+                  <li><a href="https://mhasiemmalik.github.io/spicestypfmp/"   target="mf"><i class="fas fa-search"></i>TYPES / రకాలు  </a></li>
                   <li><a href="https://mhasiemmalik.github.io/SpiceGrwthFmp/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి  </a></li>                 
                 </ul>
                 </li>
 
                 <li>
-                  <a href="#" class="desktop-link">  CASH CROPS / నగదు పంటలు <i class="fa-solid fa-caret-right "></i> </a>
+                  <a href="#" class="desktop-link"><i class="fas fa-spa"></i>  CASH CROPS / నగదు పంటలు <i class="fa-solid fa-caret-right "></i> </a>
                   <input type="checkbox" id="show-items4">
-        <!---->   <label for="show-items4">CASH CROPS / నగదు పంటలు</label>
+        <!---->   <label for="show-items4"><i class="fas fa-spa"></i> CASH CROPS / నగదు పంటలు</label>
                   <ul>
-                    <li><a href="https://mhasiemmalik.github.io/FarmCashCpTyp/"   target="mf"><i class="fas fa-spa"></i> TYPES / రకాలు  </a></li>
+                    <li><a href="https://mhasiemmalik.github.io/FarmCashCpTyp/"   target="mf"><i class="fas fa-search"></i>TYPES / రకాలు  </a></li>
                     <li><a href="https://mhasiemmalik.github.io/FarmCashCpGwt/" target="mf"><i class="fa-solid fa-arrow-up-right-dots fa-beat"></i> GROWTH / వృద్ధి  </a></li>                 
                   </ul>
                   </li>
 
-
-
             </ul>
           </li>
           <li>
-            <a  class="desktop-link">WEATHER / వాతావరణం <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-cloud-sun-rain"></i> WEATHER / వాతావరణం <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-services">
-            <label for="show-services">WEATHER / వాతావరణం <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-services"><i class="fas fa-cloud-sun-rain"></i> WEATHER / వాతావరణం <i class="fa-solid fa-caret-down "></i></label>
             <ul>
-              <li><a href="https://www.ventusky.com/?p=21.8;76.4;3&l=feel" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> MAP / చిత్రం   </a></li>
+              <li><a href="https://www.ventusky.com/?p=21.8;76.4;3&l=feel" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> CYCLONE MAP / తుఫాను మ్యాప్   </a></li>
               <li><a href="" onclick="getLocation()" > <i class="fa-solid fa-temperature-low fa-bounce"></i> TEMPERATURE / ఉష్ణోగ్రత </a></li>
               <li><a href="https://tv9telugu.com/weather-forecast" target="mf"><i class="fa-solid fa-newspaper fa-shake"></i> NEWS / వార్తలు   </a></li>
               <!--li>
@@ -420,13 +428,45 @@ nav .content .links{
               </li-->
             </ul>
           </li>
-          <li><a href="https://mhasiemmalik.github.io/FarmPlusRepoCalCulate/" target="mf"><i class="fa-solid fa-calculator"> </i> CALCULATION / లెక్కింపు  </a></li>
-		  <!--li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-sharp fa-solid fa-store"></i> MARKET / విక్రయం  </a></li-->
+
+          <!--li>
+            <a  class="desktop-link">CALCULATION / లెక్కింపు <i class="fa-solid fa-caret-down "></i></a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">CALCULATION / లెక్కింపు <i class="fa-solid fa-caret-down "></i></label>
+            <ul>
+              <li><a href="calculations.html" target="mf"><i class="fa-solid fa-hurricane fa-spin"></i> Resource Forecast  </a></li>
+            </ul>
+          </li-->
+
+
+          <li>
+            <a  class="desktop-link"><i class="fas fa-calculator"></i> CALCULATION / లెక్కింపు   <i class="fa-solid fa-caret-down "></i></a>
+            <input type="checkbox" id="show-Calculators">
+            <label for="show-Calculators"><i class="fas fa-calculator"></i> CALCULATION / లెక్కింపు <i class="fa-solid fa-caret-down "></i></label>
+            <ul>
+                
+                <li><a href="https://mhasiemmalik.github.io/FarmPlusRepoCalCulate/" target="mf"><i class="fas fa-hand-holding-water fa-fade"></i> RESOURCE FORECAST /<BR> వనరుల సూచన </a></li>
+                <li>
+                  <a href="#" class="desktop-link"><i class="fas fa-coins fa-bounce"></i>  PRICE FORECAST / ధర సూచన <i class="fa-solid fa-caret-right "></i> </a>
+                  <input type="checkbox" id="show-Calculators1">
+        <!---->   <label for="show-Calculators1" style="font-size: medium;"><i class="fas fa-coins fa-bounce"></i> PRICE FORECAST / ధరల సూచన <i class="fa-solid fa-caret-right "></i> </label>
+                  <ul>
+                    <li><a href="TELANGANA/TP CP PICS/fwdcashcropstypes/CashCrop_type.html"   target="mf"><i class="fas fa-hand-holding-usd fa-fade"></i> Price Prediction /<BR>ధరల అంచనా</a></li>
+                    <li><a href="TELANGANA/TP CP PICS/fwdcashcrops/CashCrop_growth.html" target="mf"><i class="fas fa-balance-scale fa-shake"></i> Price Comparison / <BR> ధరల పోలిక </a></li>                 
+                  </ul>
+                </li>
+            </ul>
+          </li>
+
+
+
+          <!--li><a href="calculations.html" target="mf"><i class="fa-solid fa-calculator"> </i> CALCULATION / లెక్కింపు  </a></li>
+		  <--li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-sharp fa-solid fa-store"></i> MARKET / విక్రయం  </a></li-->
           
           <li>
-            <a  class="desktop-link"> MARKETS / మార్కెట్లు <i class="fa-solid fa-caret-down "></i></a>
+            <a  class="desktop-link"><i class="fas fa-handshake"></i> MARKETS / మార్కెట్లు <i class="fa-solid fa-caret-down "></i></a>
             <input type="checkbox" id="show-locations">
-            <label for="show-locations"> MARKETS / మార్కెట్లు <i class="fa-solid fa-caret-down "></i></label>
+            <label for="show-locations"><i class="fas fa-handshake"></i> MARKETS / మార్కెట్లు <i class="fa-solid fa-caret-down "></i></label>
             <ul>
               <li><a href="http://localhost:8080/FarmMpRegistration1/index.jsp" target="mf"><i class="fa-solid fa-store fa-shake"></i> SELL AND BUY /<BR> కొనుగోలు విక్రయం    </a></li>
               <li><a href="https://mhasiemmalik.github.io/frmplocsites/" target="mf"><i class="fa-solid fa-map-location-dot fa-bounce"></i> LOCAL SITES /<BR> స్థానిక ప్రాంతాలు   </a></li>
